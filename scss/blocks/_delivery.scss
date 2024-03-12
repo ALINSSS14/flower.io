@@ -1,0 +1,29 @@
+.delivery{
+    padding: 120px 0;
+    padding-bottom: 88px;
+    background:  url("./../../img/d9d752bb649a585dbc22c193bd76ebb9\ 1.png");
+    margin-bottom: 80px;
+}
+
+.del_title{
+    margin-bottom: 22px;
+
+}
+
+
+
+.del_holder{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+}
+
+.del__text{
+    line-height: 1.5;
+    font-size: 16px;
+    color: $back;
+}
+
+.del__column{
+
+}

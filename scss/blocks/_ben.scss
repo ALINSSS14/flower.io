@@ -1,0 +1,22 @@
+.ben{
+
+padding: 133px 400px;
+}
+.ben_row{
+    display: flex;
+    column-gap: 70px;
+
+}
+
+.ben_item{
+    text-align:center;
+
+}
+.ben_item-img{
+margin-bottom: 20px;
+}
+.ben_item-text{
+font-size: 20px;
+line-height: 1.35;
+color: $back;
+}

@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vw; 
+    padding-top: 5vw; 
+    padding-bottom: 10vw; 
+
+    background-image: url("/img/photo_2024-02-20_21-44-29\ 1.jpg");
+    background-size: cover; 
+    background-position: center; 
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 5vw; 
+    text-align: center;
+    color: $white; 
+    font-weight: 700;
+}
+
+.down {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5vw; 
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding-top: 40px;
+        padding-bottom: 88px;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .down {
+        grid-template-columns: 1fr 1fr;
+        gap: 4vw; 
+        margin-left: -2vw; 
+    }
+}
